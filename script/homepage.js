@@ -133,4 +133,16 @@ async function openModal(issueId) {
   date.textContent = new Date(details.createdAt).toLocaleDateString();
 }
 
+async function showCard() {
+  const searchinput = document.getElementById("seachBox");
+  const value = searchinput.value
+  const res = await fetch(
+    `https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q=${value}`
+  );
+  const data = await res.json()
+  const show=data.data
+  displayIssues(show)
+  count.innerText=show.length
+}
+
 loadIssues();
