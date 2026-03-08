@@ -87,6 +87,7 @@ function displayIssues(issues) {
   });
 }
 
+
 function selectButtons(id) {
   loadingSpinner.classList.remove("hidden");
   setTimeout(() => {
