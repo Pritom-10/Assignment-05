@@ -16,7 +16,7 @@ A fully functional Issue Tracker web application that allows users to sign in an
 
 - **JavaScript**
 
-- **React**
+- **daisyUI**
 
 - **Tailwind CSS**
 
@@ -79,7 +79,7 @@ A fully functional Issue Tracker web application that allows users to sign in an
 
 - **Tailwind CSS**
 
-- **Axios** (for API calls)
+- **daisyUI**
 
 # **⚙️ How to Run Locally**
 
@@ -87,17 +87,17 @@ A fully functional Issue Tracker web application that allows users to sign in an
 
 - git clone https://github.com/Pritom-10/E-commarce.git
 
-**cd ecommerce-website**
+**Go to the project folder:**
 
-Install dependencies:
+- cd your-repo-name
 
-**npm install**
+**Run with Live Server:**
 
-Start the development server:
-
-**npm run dev**
-
-**👉 Open in browser: http://localhost:3000**
+- Open the folder in VS Code
+  
+- Right click on index.html
+  
+- Click "Open with Live Server"
 
 # **📷 Screenshots**
 
